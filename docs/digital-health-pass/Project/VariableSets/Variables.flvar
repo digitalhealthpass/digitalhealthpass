@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Name="Version" Comment="" Definition="Some text" EvaluatedDefinition="March 2022">March 2022</Variable>
+    <Variable Name="ProductName" Comment="" EvaluatedDefinition="Digital Health Pass">Digital Health Pass</Variable>
+    <Variable Name="AdminGuide" Comment="" EvaluatedDefinition="Administration Guide">Administration Guide</Variable>
+    <Variable Name="AdminConsole" Comment="" EvaluatedDefinition="Digital Health Pass Administration">Digital Health Pass Administration</Variable>
+    <Variable Name="VerifierGuide" Comment="" EvaluatedDefinition="Verifier Guide">Verifier Guide</Variable>
+    <Variable Name="VersionAdmin" Comment="" EvaluatedDefinition="Version 2">Version 2</Variable>
+    <Variable Name="Company name" Comment="" EvaluatedDefinition="" />
+</CatapultVariableSet>

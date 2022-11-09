@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Misc;Barkoff;Lebib;ESI;FFS;PPO">
+    <head>
+        <link href="../Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:pageHeader class="EvenPage">&#160;</MadCap:pageHeader>
+        <MadCap:bodyProxy />
+        <MadCap:pageFooter class="FirstPage">
+            <table style="margin-left: 0;margin-right: auto;width: 125%;">
+                <col style="width: 90%;color: #ffffff;" />
+                <col style="width: 35%;color: #ffffff;" />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft" style="text-align: right;color: #ffffff;border-right-style: solid;border-right-width: 7px;border-right-color: #0f62fe;padding-bottom: 3px;">&#160;&#160;</td>
+                        <td class="HeaderFooterRight" style="text-align: left;background-color: #000000;text-indent: 10px;padding-bottom: 3px;"><MadCap:variable name="System.PageNumber" style="color: #ffffff;" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="OddPage">
+            <table style="margin-left: 0;margin-right: auto;width: 125%;">
+                <col style="width: 90%;color: #ffffff;" />
+                <col style="width: 35%;color: #ffffff;" />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft" style="text-align: right;color: #ffffff;border-right-style: solid;border-right-width: 7px;border-right-color: #0f62fe;padding-bottom: 3px;">&#160;&#160;</td>
+                        <td class="HeaderFooterRight" style="text-align: left;background-color: #000000;text-indent: 10px;padding-bottom: 0px;"><MadCap:variable name="System.PageNumber" style="color: #ffffff;" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="EvenPage">
+            <table style="margin-left: 0;margin-right: auto;width: 125%;">
+                <col style="width: 90%;color: #ffffff;" />
+                <col style="width: 35%;color: #ffffff;" />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft" style="text-align: right;color: #ffffff;border-right-style: solid;border-right-width: 7px;border-right-color: #0f62fe;padding-bottom: 3px;">&#160;&#160;</td>
+                        <td class="HeaderFooterRight" style="text-align: left;background-color: #000000;text-indent: 10px;padding-bottom: 0px;"><MadCap:variable name="System.PageNumber" style="color: #ffffff;" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+    </body>
+</html>

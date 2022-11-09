@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Misc;Barkoff;Lebib;ESI;FFS;PPO" MadCap:lastBlockDepth="2" MadCap:lastHeight="22" MadCap:lastWidth="762">
+    <head>
+        <link href="../Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:pageHeader class="FirstPage">
+        </MadCap:pageHeader>
+        <MadCap:bodyProxy />
+        <MadCap:pageFooter class="OddPage">
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="EvenPage">
+        </MadCap:pageFooter>
+    </body>
+</html>

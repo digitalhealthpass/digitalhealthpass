@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.User,Primary.HeldBack">
+    <head><title>Changing a verifier configuration</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="verifier configurations:changing" />Changing a verifier configuration</h2>
+        <p><a name="top"></a>You can configure settings in a <MadCap:variable name="Variables.ProductName" /> verifier configuration, for example, to set the configuration version.</p>
+        <p><b>About <MadCap:keyword term="caching" />caching</b>
+        </p>
+        <p>With verifier configurations, caching occurs during signature verification. Enabling improves performance. Needed data includes the public keys used to validate credential signatures. Data is cached and refreshed as appropriate from the Verifier Configuration API.</p>
+        <ul>
+            <li>
+                <p>Mobile apps always cache API calls, and refresh based at the specified <b>Refresh</b> rate. </p>
+            </li>
+            <li>
+                <p>For all supported credential types, NodeJS pre-caches authorization tokens, public keys for signature validation, business rules for credential validation, display mappings, and trust lists. NodeJS caches in memory on the computer that runs the application that uses the NodeJS SDK.</p>
+            </li>
+        </ul>
+        <p><b>To change a verifier configuration:</b>
+        </p>
+        <ol>
+            <li>Log in to the administrative console.</li>
+            <li>On the home page, click the <b>Set up configurations</b> tile.</li>
+            <li>On the Configuration catalog page, click the <b>&lt;Company&gt;</b>&#160;tab.</li>
+            <li>On the configuration page, under <b>Credential Type</b>, click the type that you want.</li>
+            <li>Click <b>Update to my catalog</b>.</li>
+            <li>In the Configuration dialog box, change settings as needed. For information about settings, see <a href="#top">Adding a verifier credential</a>. </li>
+            <li>Click <b>Save configuration</b>.</li>
+        </ol>
+    </body>
+</html>

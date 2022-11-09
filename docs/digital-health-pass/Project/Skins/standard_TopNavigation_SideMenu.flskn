@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="3" SkinType="Component" Comment="HTML5 Menu skin" ComponentType="Menu" EnableResponsiveOutput="True">
+    <Stylesheet>
+        <Styles>
+            <Style Name="Menu">
+                <Properties>
+                    <Property Name="Width">100%</Property>
+                    <Property Name="BorderTopLeftRadius">10px</Property>
+                    <Property Name="BorderTopRightRadius">10px</Property>
+                    <Property Name="BorderBottomRightRadius">10px</Property>
+                    <Property Name="BorderBottomLeftRadius">10px</Property>
+                    <Property Name="WhiteSpace">normal</Property>
+                    <Property Name="BackgroundColor">#e9eaea</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Menu Item">
+                <Properties>
+                    <Property Name="PaddingTop">4px</Property>
+                    <Property Name="PaddingBottom">4px</Property>
+                    <Property Name="FontWeight">normal</Property>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="WhiteSpace">normal</Property>
+                </Properties>
+                <Classes>
+                    <StyleClass Name="1st Level">
+                        <Properties>
+                            <Property Name="PaddingBottom">6px</Property>
+                            <Property Name="PaddingTop">6px</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="2nd Level">
+                        <Properties>
+                            <Property Name="PaddingTop">2px</Property>
+                            <Property Name="PaddingBottom">2px</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="3rd Level">
+                        <Properties>
+                            <Property Name="PaddingTop">2px</Property>
+                            <Property Name="PaddingBottom">2px</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="4th Level">
+                        <Properties>
+                            <Property Name="PaddingBottom">2px</Property>
+                            <Property Name="PaddingTop">2px</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="Menu Item (hover)">
+                <Properties>
+                    <Property Name="FontWeight">bold</Property>
+                    <Property Name="Color">#ffffff</Property>
+                    <Property Name="BackgroundColor">#0072ce</Property>
+                </Properties>
+                <Classes>
+                    <StyleClass Name="Selected">
+                        <Properties>
+                            <Property Name="BackgroundColor">#4d9cd8</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Medium Name="Mobile">
+                <Style Name="Menu">
+                    <Properties>
+                        <Property Name="Display">none</Property>
+                    </Properties>
+                </Style>
+            </Medium>
+        </Styles>
+    </Stylesheet>
+    <Strings />
+</CatapultSkin>

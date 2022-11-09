@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.Admin,Primary.InternalOnly">
+    <head>
+        <link href="Resources/TableStyles/gray_border.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>About configuration versions</title>
+        <link rel="StyleSheet" href="Resources/Stylesheets/standard.css" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="verifier configurations:versions" />About configuration versions</h2>
+        <p>As you administer verifier configurations, note the following about configurations and versions.</p>
+        <p>
+            <a href="#configuration_versions_master_configurations">Master configurations</a>
+        </p>
+        <p>
+            <a href="#configuration_versions_releases">Releases of Digital Health Pass administratio</a>n</p>
+        <p>
+            <a href="#configuration_versions_updates">Updates and versions</a>
+        </p>
+        <h3>
+            <a name="configuration_versions_master_configurations">
+            </a>
+            <MadCap:keyword term="verifier configurations:master configurations" />
+            <MadCap:keyword term="master configurations" />
+            <MadCap:keyword term="Master Catalog:master configurations" />Master configurations</h3>
+        <p>The Configuration Catalog includes these master configurations:</p>
+        <p>
+            <b>Complete ruleset</b>
+        </p>
+        <p>This configuration includes all rules, which are enabled with the exception of the expirationDate check.</p>
+        <p>
+            <b>Return-to-Work Configuration (Data Exchange Service)</b>
+        </p>
+        <p>This configuration is a copy of Complete Ruleset, but with display configurations updated for Data Exchange Services. </p>
+        <p>
+            <b>Signature and Expiration check only</b>
+        </p>
+        <p>This configuration is a copy of Complete Ruleset, with most rules disabled. The only enabled rules check the expirationDate field. Since the specification includes all rules, this configuration also includes all value sets. This means that if you enable any of those rules, the rules will work normally with parameters from those value sets.</p>
+        <h3>
+            <a name="configuration_versions_releases">
+            </a>Releases of <MadCap:variable name="Variables.ProductName" /> administration</h3>
+        <p>
+            <b>Version 1</b>
+        </p>
+        <p>In the Version 1 release, administrators had a read-only view of verifier configurations. While System Administrators and Customer Administrators, could add configurations to the Configuration Catalog, the configurations were used as-is.</p>
+        <p>
+            <b>Version 2 and subsequent releases</b>
+        </p>
+        <p>
+            <MadCap:variable name="Variables.Company name" /> enhanced verifier configurations to support editing rule sets. For example, administrators can enable support for credential specifications (for example, <MadCap:variable name="Variables.Company name" /> Digital Health Pass or SMART Health Card), and the values for specific rules. Note that configurations are listed chronologically, with the most-recently updated configuration first.</p>
+        <h3>
+            <a name="configuration_versions_updates">
+            </a>Updates and versions</h3>
+        <p>With each update, a verifier configuration is assigned an incremented version number. You can use configuration versions to track updates in the Configuration Catalog. The catalog displays the latest version of any configuration, whether it's a master or customer-specific configuration. </p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/gray_border.css');margin-left: auto;margin-right: auto;" class="TableStyle-gray_border" cellspacing="0" summary="Updating version numbering with verifier configurations">
+            <caption MadCap:autonum="Table 1 ">Updating version numbering with verifier configurations</caption>
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-gray_border-Head-Header1">
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Update</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Version numbering</th>
+                    <th class="TableStyle-gray_border-HeadD-Column1-Header1">Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Modifies rule values</td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Changes last digit in version number</td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">
+                        <p>Administrator edits a version 1.0.0 configuration, then updates the rules and saves the configuration. </p>
+                        <p>The administration console updates the configuration to version 1.0.1. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">Disables a rule</td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">Changes second digit in version number</td>
+                    <td class="TableStyle-gray_border-BodyA-Column1-Body1">
+                        <p>Administrator edits a version 1.1.1 configuration, then disables a rule and saves the configuration. </p>
+                        <p>The administration console updates the configuration to version 1.2.1.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

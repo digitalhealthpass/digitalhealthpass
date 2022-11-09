@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Title page"
+    Link="/Content/Title_page_admin.htm"
+    conditions="Primary.Print,Primary.ExternalOnly,Primary.PrintOnly"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print_TitlePage_Master.flmsp"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Title page - Internal"
+    Link="/Content/Title_page_admin_internal.htm"
+    conditions="Primary.InternalOnly,Primary.PrintOnly"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print_BlankPage_Master.flmsp"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Contents"
+    Link="/Content/Contents.htm"
+    conditions="Primary.Print,Primary.PrintOnly"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print_TOC_MasterPage.flmsp"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Introduction_admin.htm"
+    StartSection="true"
+    PageNumberReset="reset"
+    MasterPage="/Content/Resources/MasterPages/standard_print_topic_pages.flmsp"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="About this document"
+      Link="/Content/About_this_document.htm" />
+    <TocEntry
+      Title="About Digital Health Pass applications"
+      Link="/Content/About_applications.htm"></TocEntry>
+    <TocEntry
+      Title="Process overview"
+      Link="/Content/Process_overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Introduction to administration"
+      Link="/Content/Introduction_to_administration.htm"></TocEntry>
+    <TocEntry
+      Title="Terms and concepts"
+      Link="/Content/Terms_and_concepts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="About the administrative console"
+      Link="/Content/About_the_administrative_console.htm" />
+    <TocEntry
+      Title="About Basic customers and Enterprise customers"
+      Link="/Content/About_Basic_Enterprise_customers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="About credential verification"
+        Link="/Content/About_credential_verification.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/About_supported_qr_codes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Roles and responsibilities"
+      Link="/Content/Roles_and_responsibilities.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Getting_started.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Automatic organization, verifier setup"
+      Link="/Content/Automatic_ setup.htm" />
+    <TocEntry
+      Title="What you need"
+      Link="/Content/What_you_need.htm"></TocEntry>
+    <TocEntry
+      Title="Using your welcome email"
+      Link="/Content/Using_your_welcome_email.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Tips for administration"
+      Link="/Content/Tips_for_administration.htm" />
+    <TocEntry
+      Title="Logging in to the console"
+      Link="/Content/Logging_in_to_the_Console.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="IBM System Administrators (IBM internal)"
+    Link="/Content/System_Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="Primary.InternalOnly">
+    <TocEntry
+      Title="If you have questions"
+      Link="/Content/If_you_have_questions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Onboarding overview"
+      Link="/Content/Onboarding_overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Adding a customer in App ID"
+      Link="/Content/Adding_a_customer_app_id.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.HeldBack"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Adding a customer in administration"
+      conditions="Primary.InternalOnly"
+      Link="/Content/Adding_a_customer.htm"></TocEntry>
+    <TocEntry
+      Title="Reviewing customer information"
+      Link="/Content/Reviewing_customer_information.htm"
+      conditions="Primary.InternalOnly"></TocEntry>
+    <TocEntry
+      Title="Reviewing Customer Administrators"
+      Link="/Content/Reviewing_Customer_Administrators.htm"
+      conditions="Primary.InternalOnly"></TocEntry>
+    <TocEntry
+      Title="Reviewing issuance counts"
+      Link="/Content/Reviewing_issuance_counts.htm"
+      conditions="Primary.HeldBack" />
+    <TocEntry
+      Title="About customer profiles"
+      Link="/Content/About_customer_profiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="About configuration versions"
+      Link="/Content/About_configuration_versions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Managing verifier configurations"
+      Link="/Content/Managing_verifier_configurations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Working with the rules editor"
+      Link="/Content/Working_with_rules_editor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="About rules processing"
+      Link="/Content/About_rules_processing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Editing a verifier configuration"
+      Link="/Content/Editing_a_verifier_configuration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Primary.InternalOnly" />
+    <TocEntry
+      Title="Deleting a customer"
+      Link="/Content/Deleting_a_customer.htm"
+      conditions="Primary.InternalOnly"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Customer Administrators"
+    Link="/Content/Customer_Administrators.htm"
+    StartSection="false">
+    <TocEntry
+      Title="Adding an organization"
+      Link="/Content/Adding_an_organization.htm"></TocEntry>
+    <TocEntry
+      Title="Adding an Organization Administrator"
+      Link="/Content/Adding_an_organization_administrator.htm" />
+    <TocEntry
+      Title="Reviewing Organization Administrators"
+      Link="/Content/Reviewing_Organization_Administrators.htm"></TocEntry>
+    <TocEntry
+      Title="Deleting an organization"
+      Link="/Content/Deleting_an_organization.htm"></TocEntry>
+    <TocEntry
+      Title="About verification rules for verifier credentials"
+      Link="/Content/About_verification_rules.htm"></TocEntry>
+    <TocEntry
+      Title="About credential types, processing"
+      Link="/Content/About_credential_types_processing.htm"></TocEntry>
+    <TocEntry
+      Title="About rule sets"
+      Link="/Content/About_rule_sets.htm" />
+    <TocEntry
+      Title="Viewing verifier configurations"
+      Link="/Content/Viewing_verifier_configurations.htm"></TocEntry>
+    <TocEntry
+      Title="Adding a verifier configuration to your catalog"
+      Link="/Content/Adding_config_to_catalog.htm"></TocEntry>
+    <TocEntry
+      Title="Changing a verifier configuration"
+      Link="/Content/Changing_a_verifier_configuration.htm"
+      conditions="Primary.HeldBack"></TocEntry>
+    <TocEntry
+      Title="Testing and production"
+      Link="/Content/Testing_and_production.htm"></TocEntry>
+    <TocEntry
+      Title="Reviewing verifier metrics"
+      Link="/Content/Reviewing_verifier_metrics.htm" />
+    <TocEntry
+      Title="Deleting a verifier configuration"
+      Link="/Content/Deleting_a_verifier_configuration.htm"
+      conditions="Primary.HeldBack" />
+  </TocEntry>
+  <TocEntry
+    Title="Organization Administrators"
+    Link="/Content/Organization_Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Adding a verifier credential"
+      Link="/Content/Adding_a_verifier_credential.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Reviewing, sharing verifier credentials"
+      Link="/Content/Reviewing_sharing_verifier_credentials.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Revoking a verifier credential"
+      Link="/Content/Revoking_a_verifier_credential.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Verifiers"
+    Link="/Content/Verifiers.htm">
+    <TocEntry
+      Title="Preparing for verification"
+      Link="/Content/How_it_works.htm"></TocEntry>
+    <TocEntry
+      Title="Getting authenticated for verification"
+      Link="/Content/Getting_authenticated_for_verification.htm"></TocEntry>
+    <TocEntry
+      Title="Scanning"
+      Link="/Content/Scanning.htm">
+      <TocEntry
+        Title="Reporting scan metrics"
+        conditions="Primary.HeldBack"
+        Link="/Content/Reporting_scan_metrics.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting and support"
+    Link="/Content/Troubleshooting_and_support.htm" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Copyright.htm" />
+  <TocEntry
+    Title="Index"
+    Link="/Content/Index.htm"
+    conditions="Primary.Print"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="Back page"
+    Link="/Content/Back_page.htm"
+    conditions="Primary.Print" />
+</CatapultToc>

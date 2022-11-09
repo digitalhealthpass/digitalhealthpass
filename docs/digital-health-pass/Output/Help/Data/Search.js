@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/About_Basic_Enterprise_customers.htm'],s:['$','valid'],p:[['$',47],['credentials',31],['lists',7],['smart',9]]});

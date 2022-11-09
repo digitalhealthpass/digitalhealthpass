@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Name="HeldBack"
+    BackgroundColor="#0000ff" />
+  <ConditionTag
+    Name="InternalOnly"
+    BackgroundColor="#00ff00" />
+  <ConditionTag
+    BackgroundColor="#ebff00"
+    Name="ExternalOnly"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="PrintOnly"
+    Comment=""
+    OriginalName="PrintOnly" />
+  <ConditionTag
+    Name="OnlineOnly"
+    Comment="" />
+  <ConditionTag
+    Name="Admin" />
+  <ConditionTag
+    Name="Online" />
+  <ConditionTag
+    Name="Print" />
+  <ConditionTag
+    Name="User" />
+</CatapultConditionTagSet>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.Admin,Primary.User">
+    <head>
+        <link href="Resources/TableStyles/gray_border.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>About verification rules for verifier credentials</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="rules, verification" />
+            <MadCap:keyword term="verifying:verification rules" />About verification rules for verifier credentials
+            </h2>
+        <p>You can use <MadCap:variable name="Variables.ProductName" /> administration to define and manage a catalog of <b>verifier configurations</b> (standard rule sets). In addition, when you create a verifier credential, you can associate a verifier configuration with it. Each configuration contains: </p>
+        <ul>
+            <li>
+                <p><b>Rule sets:</b>&#160;A list of rules to evaluate against a holder’s credential</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:keyword term="trust lists" /><b>Trust lists:</b>&#160;A list of issuers which are trusted by the verifier</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:keyword term="display fields" /><b>Display fields:</b>&#160;A list of fields from the holder’s credential that are displayed on the verifier application when a holder credential is scanned</p>
+            </li>
+        </ul>
+        <p>The administration console includes a special <b><MadCap:keyword term="configuration catalog:overview" />Configuration Catalog</b> of these configurations, from which you can select then associate a configuration with a verifier credential. </p>
+        <p><b>Process overview for verification rules, configurations</b>
+        </p>
+        <ol>
+            <li>Understand rules in verifier configurations. View them in the configuration catalog.         </li>
+            <li>Select configurations from the <MadCap:keyword term="Master Catalog:rule sets" />Master Catalog for use in your own catalog. 
+            </li>
+            <li>Add the verifier credentials that you need.
+            Associate a verifier configuration with each credential.            </li>
+            <li>Test the configuration, then place in production.
+            </li>
+        </ol>
+        <p><b>Administrator roles</b>
+        </p>
+        <p>Permissions related to verifier configuration differ based on the administrator type (table).</p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/gray_border.css');margin-left: auto;margin-right: auto;caption-side: top;" summary="Administrators and permissions for verifier configurations" class="TableStyle-gray_border" cellspacing="0">
+            <caption MadCap:autonum="Table 1 ">Administrators and permissions for verifier configurations</caption>
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 40%;" />
+            <col class="TableStyle-gray_border-Column-Column1" />
+            <col class="TableStyle-gray_border-Column-Column1" />
+            <col class="TableStyle-gray_border-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-gray_border-Head-Header1">
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1" style="vertical-align: bottom;padding-left: 6pt;padding-right: 6pt;padding-top: 6pt;padding-bottom: 6pt;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #d3d3d3;">Role</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1" style="vertical-align: bottom;padding-left: 6pt;padding-right: 6pt;padding-top: 6pt;padding-bottom: 6pt;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #d3d3d3;">Create</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1" style="vertical-align: bottom;padding-left: 6pt;padding-right: 6pt;padding-top: 6pt;padding-bottom: 6pt;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #d3d3d3;">View</th>
+                    <th class="TableStyle-gray_border-HeadD-Column1-Header1" style="vertical-align: bottom;padding-left: 6pt;padding-right: 6pt;padding-top: 6pt;padding-bottom: 6pt;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #d3d3d3;">Associate configurations with verifier credentials</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1" style="font-weight: bold;">Customer administrators</td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Yes</td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Yes</td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">Yes</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1"><b>Organization administrators</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">—</td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">Yes</td>
+                    <td class="TableStyle-gray_border-BodyA-Column1-Body1">Yes</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>For an overview of credential verification in <MadCap:variable name="Variables.ProductName" />, see <a href="About_credential_verification.htm">About credential verification</a>. For steps that Organization Administrators use to add verifier credentials, see <a href="Adding_a_verifier_credential.htm">Adding a verifier credential</a>.</p>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-04-27T10:13:33.4385361-07:00"
+  ProjectName="logic"
+  ProjectFolder="C:\Flare Projects\v.11\Logic\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/standard.css"
+  LastImport="2015-04-27T10:14:23.8683135-07:00">
+  <Files>
+    <Url
+      Source="../../../../../Documents/_Working/Logic (SAGE)/Styleguide/Styleguide_Logic.docx"
+      AbsoluteSource="file:///C:/Documents/_Working/Logic (SAGE)/Styleguide/Styleguide_Logic.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Styleguide_Logic/Styleguide_Logic.htm"
+      TimeStamp="4/27/2015 10:14:22 AM" />
+    <Url
+      Source="../TOCs/Styleguide_Logic.fltoc"
+      TimeStamp="4/27/2015 10:14:22 AM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Styleguide_Logic.flmsp"
+      TimeStamp="4/27/2015 10:14:22 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/standard.css"
+      TimeStamp="4/27/2015 10:14:22 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h2" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Body Copy"
+      To="p" />
+    <Map
+      From="Subtitle"
+      To="h3.(MS Word Style)" />
+    <Map
+      From="Title"
+      To="h3.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Body Copy" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Subtitle" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+  </UsedCharacterStyles>
+</MsWordImport>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.User,Primary.HeldBack">
+    <head>
+        <link href="Resources/TableStyles/gray_border.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Adding a customer in App ID</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="onboarding:adding customers" />
+            <MadCap:keyword term="customers:adding" />Adding a customer in App ID</h2>
+        <p>The first step in onboarding a new <MadCap:variable name="Variables.ProductName" /> customer is registration in <MadCap:variable name="Variables.Company name" />IBM® Cloud <MadCap:keyword term="IBM Cloud App ID" />App ID. You'll first gather required customer information. Then, enter this information in App ID. App ID&#160;registers authentication and user-specific data for mobile and web apps. After completing this procedure, you'll finish adding the customer using <MadCap:variable name="Variables.ProductName" /> administration.</p>
+        <p><b>To add a customer in App ID:</b>
+        </p>
+        <ol>
+            <li>Collect the information listed in the table.            </li>
+            <li>In App ID, enter the information in the required fields. </li>
+            <li>Continue customer setup in <a href="Adding_a_customer.htm">Adding a customer in administration</a>.</li>
+        </ol>
+        <p>For information on roles in the following table, see <a href="Roles_and_responsibilities.htm">Roles and responsibilities</a>.       </p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/gray_border.css');margin-left: 0;margin-right: auto;" summary="Customer information to collect and enter in App ID" class="TableStyle-gray_border" cellspacing="0">
+            <caption MadCap:autonum="Table 1 ">Customer information to collect and enter in App ID</caption>
+            <col style="width: 33%;" class="TableStyle-gray_border-Column-Column1" />
+            <col style="width: 33%;" class="TableStyle-gray_border-Column-Column1" />
+            <col style="width: 33%;" class="TableStyle-gray_border-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-gray_border-Head-Header1">
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Role</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Information to collect</th>
+                    <th class="TableStyle-gray_border-HeadD-Column1-Header1">Required fields in App ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Customer Administrator </td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">
+                        <p>First name, last name</p>
+                        <p>Valid email address </p>
+                        <p>Role</p>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">
+                        <MadCap:keyword term="credentials:revoking" />
+                        <MadCap:keyword term="revoking credentials" />[Credential Revoker - FUTURE]*</td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">[First name, Last name - FUTURE]</td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">credential-revoker</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Health pass administrator                 </td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Valid email address</td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">healthpass-admin</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Issuers </td>
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1">Valid email address</td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">schema-writer</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">Verifiers**</td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">First name, last name</td>
+                    <td class="TableStyle-gray_border-BodyA-Column1-Body1">verifier</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>*&#160;Organization Administrators can revoke verifier credentials. </p>
+        <p>**&#160;The <MadCap:variable name="Variables.AdminConsole" /> product team is introducing several scopes for verifier onboarding, but the application creates all of them. In addition, batch processing using <a href="https://w3.ibm.com/help/#/article/33059/des_overview">Devices Eligibility Service ↗</a> (DES) has these <MadCap:keyword term="scopes" />scopes:</p>
+        <p>${org}</p>
+        <p>regadmin</p>
+        <p>testadmin</p>
+        <p>dataadmin</p>
+        <p>reporter</p>
+        <p>The product team will combine the org scope other DES scopes, to determine if <MadCap:variable name="Variables.ProductName" /> customers can perform those operations for that organization.</p>
+        <p class="Note"><b>Note:</b>&#160;In App ID, each application is limited to 50 total scopes.</p>
+    </body>
+</html>

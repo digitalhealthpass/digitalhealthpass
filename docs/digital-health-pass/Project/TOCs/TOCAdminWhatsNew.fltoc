@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="What's new"
+    Link="/Content/New.htm">
+    <TocEntry
+      Title="Version 2 (March 2022)"
+      Link="/Content/New_version_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Version 1 (September 2021)"
+      Link="/Content/New_version_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Back page"
+    Link="/Content/Back_page.htm"
+    conditions="Primary.Print" />
+</CatapultToc>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="257" MadCap:lastWidth="762" MadCap:ignoredWords="Misc;Barkoff;Lebib;ESI;FFS;PPO">
+    <head>
+        <link href="../Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:pageHeader class="EvenPage">&#160;</MadCap:pageHeader>
+        <MadCap:bodyProxy />
+        <MadCap:pageFooter class="FirstPage">
+            <p style="text-align: center;">&#160;</p>
+            <table style="width: 100%;margin-left: 0;margin-right: auto;">
+                <col style="width: 313px;" />
+                <col />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft">&#160;</td>
+                        <td class="HeaderFooterRight">Page <MadCap:variable name="System.PageNumber" /> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="OddPage">
+            <p style="text-align: right;">&#160;</p>
+            <table style="width: 100%;margin-left: 0;margin-right: auto;">
+                <col style="width: 317px;" />
+                <col />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft">&#160;</td>
+                        <td class="HeaderFooterRight">Page <MadCap:variable name="System.PageNumber" /><br /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+        <MadCap:pageFooter class="EvenPage">
+            <p>&#160;</p>
+            <table style="width: 100%;margin-left: 0;margin-right: auto;">
+                <col style="width: 318px;" />
+                <col />
+                <tbody>
+                    <tr>
+                        <td class="HeaderFooterLeft">&#160;</td>
+                        <td class="HeaderFooterRight">Page <MadCap:variable name="System.PageNumber" /> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </MadCap:pageFooter>
+    </body>
+</html>

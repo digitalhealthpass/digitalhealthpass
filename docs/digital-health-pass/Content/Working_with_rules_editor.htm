@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.User,Primary.InternalOnly">
+    <head>
+        <link href="Resources/TableStyles/gray_border.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Working with the rules editor</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="rules editor" />Working with the rules editor</h2>
+        <p>Use the rules editor in the administration console to manage <MadCap:keyword term="business rules" />business rules in verifier configurations. Use configurations to reuse rules and customize their usage to meet your requirements. When you <a href="Editing_a_verifier_configuration.htm">edit a configuration</a>, you can modify rule values, and either enable or disable rules and specifications. After updating, you do not need to re-issue related verifier credentials.</p>
+        <p>In the rules editor, you work in this hierarchy:</p>
+        <p style="text-indent: 0.5in;"><b>Categories &gt;&#160;Specifications &gt; Rules</b>
+        </p>
+        <p>where</p>
+        <p><b>Categories</b> are standard items, for example, <b>Generic Credential</b> and <b>Temperature Scan</b>. </p>
+        <p>Specifications are credential standards, for example, <MadCap:variable name="Variables.Company name" style="font-weight: bold;" /><b> Digital Health Pass</b> and <b>EU Digital COVID Certificate</b>. </p>
+        <p><b>Rules</b> control how credentials are processed and assessed, for example, <b>Check the credential is not expired</b> and <b>Check for negative test result</b>.
+        </p>
+        <h3>Configurations and value sets</h3>
+        <p>In the rules editor, when you select an item (a specification configuration) from the <b>Config Values</b> tab, you'll see configuration values and related information.</p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/gray_border.css');margin-left: auto;margin-right: auto;" class="TableStyle-gray_border" cellspacing="0" summary="Standard and optional information in configurations">
+            <caption MadCap:autonum="Table 1 ">Standard and optional information in configurations</caption>
+            <col style="width: 30%;" class="TableStyle-gray_border-Column-Column1" />
+            <col style="width: 70%;" class="TableStyle-gray_border-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td style="background-color: #f5f5f5;padding-bottom: 3px;" class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Standard information</b>
+                    </td>
+                    <td style="background-color: #f5f5f5;padding-bottom: 3px;" class="TableStyle-gray_border-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Used in specifications</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">Describes which credentials use the item, by specification and specification type (for example, <b>Test Result</b>).</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Values</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">
+                        <p>Current settings for the item. For steps to update, see <a href="Editing_a_verifier_configuration.htm">Editing a verifier configuration</a>.</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td style="background-color: #f5f5f5;padding-bottom: 3px;" class="TableStyle-gray_border-BodyD-Column1-Body1" colspan="2"><b>Optional information</b> Availability varies, based on the item type</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Description</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">Check this to confirm that you're working with the correct item. </td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Comment</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">Additional information as comments, for reference.</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyE-Column1-Body1"><b>Source</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyD-Column1-Body1">Link to source code for reference, for example, in JSON&#160;format.</td>
+                </tr>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1"><b>Documentation</b>
+                    </td>
+                    <td class="TableStyle-gray_border-BodyA-Column1-Body1">
+                        <p>References, for example, for looking up codes</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

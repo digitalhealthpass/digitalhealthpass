@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.User,Primary.InternalOnly">
+    <head><title>About rules processing</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="rules editor" />About rules processing</h2>
+        <p>The rules engine evaluates credential and rule settings to determine whether a credential is valid when scanned. Processing is hierarchic using a "true, false" logic, assessing specification settings, then rule settings. The following are basic examples of results from verification scans, based on the applied <MadCap:variable name="Variables.ProductName" /> rules processing of verifier configurations.</p>
+        <h3>Example 1: Valid (green)&#160;scan result</h3>
+        <p><b>Credential holder:</b> Presents a SMART Health Card, has completed an approved test, has a <b>negative</b> test result</p>
+        <p><b>Rules:</b> Enabled values for SMART Health card, check for approved test, check for negative test result</p>
+        <p><b>Scan result:</b> Valid credential</p>
+        <h3>Example 2: Invalid (red)&#160;scan result</h3>
+        <p><b>Credential holder:</b> Presents a SMART Health Card, has completed an approved test, has a <b>positive</b> test result</p>
+        <p><b>Rules:</b> Enabled values for SMART Health card, check for approved test, check for negative test result</p>
+        <p><b>Scan result:</b> Invalid credential</p>
+        <h3>Example 3: Invalid (red)&#160;scan result</h3>
+        <p><b>Credential holder:</b> Presents a SMART Health Card, has completed an approved test, has a negative test result</p>
+        <p><b>Rules:</b> Disabled value for SMART Health card</p>
+        <p><b>Scan result:</b> Invalid credential</p>
+    </body>
+</html>

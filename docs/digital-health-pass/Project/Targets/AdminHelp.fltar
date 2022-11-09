@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  conditions="Primary.ExternalOnly"
+  ConditionTagExpression="exclude[Primary.InternalOnly or Primary.PrintOnly]"
+  DefaultUrl="/Content/Home_admin.htm"
+  MasterToc="/Project/TOCs/TOCAdmin.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/standard.css"
+  OutputFile="index.htm"
+  OutputFolder="C:\Users\mwallace\git\opensource-dev-info\documentation\Digital Health Pass"
+  Skin="/Project/Skins/standard_TopNavigation_background_gray.flskn"
+  MenuSkin="/Project/Skins/standard_TopNavigation_SideMenu.flskn">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+  <MetaTags>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="description"
+      content="© Copyright IBM Corporation 2021" />
+  </MetaTags>
+</CatapultTarget>

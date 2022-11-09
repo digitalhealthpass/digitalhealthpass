@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="3" SkinType="WebHelp2" ComponentType="MasterPage" TemplateName="Fluid" Comment="HTML5 Fluid Layout" EnableResponsiveOutput="true" RemoveImagesOnSave="true" CommentsInTopic="false" DisplayCommunitySearchResults="false" AutoSyncTOC="true">
+    <Stylesheet>
+        <Styles>
+            <Style Name="Header">
+                <Properties>
+                    <Property Name="Height">122px</Property>
+                    <Property Name="BackgroundColor">#E9EAEA</Property>
+                    <Property Name="BackgroundImage">none</Property>
+                </Properties>
+            </Style>
+            <Style Name="Menu Item">
+                <Classes>
+                    <StyleClass Name="2nd Level">
+                        <Properties>
+                            <Property Name="PaddingRight">10px</Property>
+                            <Property Name="MarginRight">0px</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="3rd Level">
+                        <Properties>
+                            <Property Name="PaddingRight">10px</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="4th Level">
+                        <Properties>
+                            <Property Name="PaddingRight">10px</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+                <Properties>
+                    <Property Name="FontSize">12pt</Property>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Input">
+                <Properties>
+                    <Property Name="BackgroundColor">#ffffff</Property>
+                    <Property Name="FontWeight">normal</Property>
+                    <Property Name="Color">#808080</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                    <Property Name="FontSize">14px</Property>
+                </Properties>
+            </Style>
+            <Style Name="Menu">
+                <Properties>
+                    <Property Name="FontSize">14pt</Property>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="Float">left</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                    <Property Name="AlignmentHorizontal">left</Property>
+                </Properties>
+                <Classes>
+                    <StyleClass Name="1st Level">
+                        <Properties>
+                            <Property Name="Color">#ffffff</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="Search Submit Button">
+                <Properties>
+                    <Property Name="BackgroundColor">#bebfbf</Property>
+                    <Property Name="Width">56px</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Bar">
+                <Properties>
+                    <Property Name="BorderTop">solid 1pt #bebfbf</Property>
+                    <Property Name="BorderRight">solid 1pt #bebfbf</Property>
+                    <Property Name="BorderBottom">solid 1pt #bebfbf</Property>
+                    <Property Name="BorderLeft">solid 1pt #bebfbf</Property>
+                    <Property Name="Width">60%</Property>
+                    <Property Name="Height">30px</Property>
+                </Properties>
+            </Style>
+            <Style Name="Menu Item (hover)">
+                <Properties>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="FontWeight">bold</Property>
+                </Properties>
+                <Classes>
+                    <StyleClass Name="1st Level">
+                        <Properties>
+                            <Property Name="Color">#ffffff</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="Search Result Path">
+                <Properties>
+                    <Property Name="Color">#ffffff</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Abstract">
+                <Properties>
+                    <Property Name="FontSize">11pt</Property>
+                    <Property Name="Color">#000000</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Heading">
+                <Properties>
+                    <Property Name="FontSize">16pt</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link">
+                <Properties>
+                    <Property Name="FontSize">14pt</Property>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (active)">
+                <Properties>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="FontSize">14pt</Property>
+                    <Property Name="TextDecoration">none</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (focus)">
+                <Properties>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="FontSize">14pt</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (hover)">
+                <Properties>
+                    <Property Name="Color">#0072ce</Property>
+                    <Property Name="FontSize">14pt</Property>
+                    <Property Name="TextDecoration">none</Property>
+                    <Property Name="FontWeight">normal</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (visited)">
+                <Properties>
+                    <Property Name="FontSize">11pt</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Filter">
+                <Properties>
+                    <Property Name="BorderRight">solid 1pt #bebfbf</Property>
+                    <Property Name="BorderLeft">solid 1pt #bebfbf</Property>
+                    <Property Name="BorderTopLeftRadius">1pt</Property>
+                    <Property Name="BorderTopRightRadius">1pt</Property>
+                    <Property Name="BorderBottomRightRadius">1pt</Property>
+                    <Property Name="BorderBottomLeftRadius">1pt</Property>
+                </Properties>
+            </Style>
+            <Style Name="Logo">
+                <Properties>
+                    <Property Name="BackgroundImage">none</Property>
+                </Properties>
+            </Style>
+            <Medium Name="Tablet">
+                <Style Name="Navigation Slide Out Button">
+                    <Properties>
+                        <Property Name="BackgroundColor">transparent</Property>
+                        <Property Name="BackgroundImage">url('menu_1.png')</Property>
+                    </Properties>
+                </Style>
+                <Style Name="Navigation Panel">
+                    <Properties>
+                    </Properties>
+                </Style>
+                <Style Name="Navigation Panel Item">
+                    <Properties>
+                        <Property Name="LineHeight">1</Property>
+                    </Properties>
+                </Style>
+                <Style Name="Search Filter">
+                    <Properties>
+                    </Properties>
+                </Style>
+                <Style Name="Search Filter Drop-down">
+                    <Properties>
+                    </Properties>
+                </Style>
+                <Style Name="Search Filter Drop-down (hover)">
+                    <Properties>
+                    </Properties>
+                </Style>
+                <Style Name="Logo">
+                    <Properties>
+                        <Property Name="BackgroundImage">url('helphome_1.png')</Property>
+                    </Properties>
+                </Style>
+                <Style Name="Header">
+                    <Properties>
+                        <Property Name="PaddingTop">0px</Property>
+                        <Property Name="PaddingBottom">5px</Property>
+                    </Properties>
+                </Style>
+                <Style Name="Search Bar">
+                    <Properties>
+                        <Property Name="MarginTop">0px</Property>
+                    </Properties>
+                </Style>
+            </Medium>
+            <Medium Name="Mobile">
+                <Style Name="Logo">
+                    <Properties>
+                        <Property Name="BackgroundImage">url('helphome.png')"</Property>
+                    </Properties>
+                </Style>
+            </Medium>
+            <Style Name="Search Micro Content Result">
+                <Properties>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Glossary Term">
+                <Properties>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Glossary Definition">
+                <Properties>
+                    <Property Name="FontFamily">Plex Sans</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Results">
+                <Properties>
+                    <Property Name="LineHeight">2em</Property>
+                </Properties>
+            </Style>
+        </Styles>
+        <Resources>
+            <Resource Name="menu_1.png">H4sIAAAAAAAEAAFVAar+iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAIAAABZ+cloAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABB0lEQVRIid2VMW6DMBSG7eInNfYAC9wg5QiIY3CPRA0SUnMCKo6Q7OlJGBi4CBJSDEIMBqwOlUzF/MyQf/qn77PsZ5v2fT/NM7ETYIwtWs/WBJTSN0toE+sCZlrXdVJKFKjnea7rbgU/j0ee5yiCLMs+L5etYNFaKYUiWLQ23foZ0KeUfwtv27ZpGhRoEAS+7xNCAGAV2AgA7Dim99utKAoUaJqmp/N5K1DTNAwDikBNk+k7btHH8ZgkCQo0DEPTX2mK6rouyxIFGsdxFEVbQVVV30iP3df1agQ7bhFj7P1wwIGyFbtO0TiOWBdNCCGEIIQAwKrinHPOUQT/8wKfvuM4AGCLztgv6DZhaMxd7wYAAAAASUVORK5CYII+E+vzVQEAAA==</Resource>
+            <Resource Name="helphome.png">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</Resource>
+            <Resource Name="helphome_1.png">H4sIAAAAAAAEAAHlBRr6iVBORw0KGgoAAAANSUhEUgAAACgAAABLCAIAAACN/FLOAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFl0lEQVRoge2Ye1BUVRjAz7l37933g+WxvBEkKFQMS8JMZUYsnWhER81e0/SHTY/RXtYfjfYyG2yairHGytJGxVczAU6WAdXg0qIugoKi7JJLC8qyD2DZ193du/f0B7TsC9xdNTX3++uee8/3/e55fOf7zgcH9XpwMwS7KdQYOAaeUvo7TZ3HtAyNolNnRaHD0MypQ38drWyjLO7iNbmPvl3Ek7AjNQIj9WPK4vppa9vJg2rvWDNnJ6z9bL4sTzzW1KlGmr7p8rgZAMDs8qwZSzJC2olsxLrukR/eauk9bfB9qT1r3LGmvuL9uYXlWRgOLQZHe63GTXkAALJc8bWCGQ86c6S39j2lzUQFf7UYHftfae49rV/6ZlGYBsMCUxbXz9vaW/apGZqZrI+HZuS7LvadNRVVZF8f8ED3yOGNCm27MRxzvacN2jNGhrn6Vp8KzHhQe52m7l2lbdgZDtWrFU63ScGU1X10a9uJ/aowDUX6E6HBuu6RA6/92d9hiho5Jse/vRCfJSxaPg1iMOBToB8jBrXVaGreUTrMEUzvFAIhnPd0XvmmOWw+MSnYaXUf2dJ68kAPCmN3RCTps6RPVi3wHjJ+YKNm9ODrCo3yRiUkgnjOqsqSmUszIfQBIwap5AO2oYnpHVSbG7d3gGsb+d2laXNW5sB/1xdisGBxGltAAO/mghjMX5Tqq9PTovtte8c1znhSrnhORYidBW7LeBwDx8BXkWhyrrwFKfGZQm/TaXWfb+hz2ukbDi55Km92eZa3OdRnvaTURwq+89Y4Bv7/gyd1J4LExck8FCouElzct4nhUJjIDZm0cEUECBESAYji7nS95M5b4xj4jgHbhpzmAXuwLzIeZNY5bKZwrzMWAzWqd4RzEcEAAIhB1RvklQtrfRP6cUN6xydldXtfagqHihD4+on6L1ceswbZCQ2+KXLrndVTiGPU1dtqGOqzSjME2XOTOEIiZDftGSPEYFqBVKca7m01SjP40+clExw8GjBC4Nyv2ppNp8w6+9gbSQp/xYfFMx/OCAgGCIG9Lx4nOHjR8mkNVZ1jZS/ZXZLnvitNzBH5gT00c2K/ms33+xXHqIt2TlR6/m7VH3pDkZQjWlVZIs0QmLTWxqqOwxsVkuqy9ML44B8dvmxT7FGt3jYvfZb0fGN//adnq9fL19cuwwnMB+xmfvm4fYrhMh4k332RF8d+5qtFcWl8AEByviRpumjH4/Ut1epVM6UABoZAl51esaV47urpAIKUe+KsBkfz7m5tuyG7WDYBJtj489VlAVVJi5H6ft0fY8+2IepK1zDJxs/X93kRiEEYDi+fMzmtbraQDAALEjgFZeneVZjxSKZij0qj9AdDDCbligUJHF9N7oAdw8f1nDbaaqTsI86azacCABCDlJUOBvMlbJyYcByehAQYGO6zARTJ5sJwyCKxnAeSKj4ohv6zihOYMJETrML4ZzAMjQACXAkJYCRgrogUyXj2YZckhc+Xjq8IQshmojhCEiew4DxpVGd3Wt1c0fhM6HvMjAcl50tARAcIV0TmLUwd7DE377rgLWqqm3WVi+r2vSynXSHKnE4bfXxn11hnh9nVtLOLLSDyFqaAyPwYgvnP5l/4vb/xi3MapSGlIM42RHU19OMEVvrCDBYZYsRsPqHYpzZoLAnThCr5wKBq5LHN9/OlnAmwWMaLzxJAPNAfMBaUZgrFybyxpiSVt27P4sbtnV2N/ZdODnJEZE6JbMmrhRmF8QAACIAklU+7GO9+lKTylm68t6Gqo7vpSmK2cO3nD923Ituv3BSpMDRyUx4WieFk6MVCCHz04I8EB99Qt4wtIFx2D8nDfcs/0ZzVAACMBdmCcHUhFqLzbRWdwhEIQH5pKovAMSL02GI3iRg4Bo6BY+BbH8yCQcnwfyP/ADHgUz9KCP5sAAAAAElFTkSuQmCC5Gb8MeUFAAA=</Resource>
+        </Resources>
+        <Stylesheet>
+        </Stylesheet>
+    </Stylesheet>
+    <WebHelpOptions NavigationPanePosition="Left" />
+    <Strings>
+        <Stylesheet lang="en-us">
+            <Stylesheet>
+                <Styles>
+                    <Medium Name="Tablet">
+                        <Style Name="Navigation Slide Out Button">
+                            <Properties />
+                        </Style>
+                        <Style Name="Navigation Panel">
+                            <Properties />
+                        </Style>
+                        <Style Name="Navigation Panel Item">
+                            <Properties>
+                                <Property Name="LineHeight">1</Property>
+                            </Properties>
+                        </Style>
+                        <Style Name="Search Filter">
+                            <Properties />
+                        </Style>
+                        <Style Name="Search Filter Drop-down">
+                            <Properties />
+                        </Style>
+                        <Style Name="Search Filter Drop-down (hover)">
+                            <Properties />
+                        </Style>
+                    </Medium>
+                    <Style Name="Header">
+                        <Properties>
+                            <Property Name="Height">122px</Property>
+                            <Property Name="BackgroundColor">#000000</Property>
+                        </Properties>
+                    </Style>
+                    <Style Name="Menu Item">
+                        <Classes>
+                            <StyleClass Name="2nd Level">
+                                <Properties>
+                                    <Property Name="PaddingRight">10px</Property>
+                                    <Property Name="MarginRight">0px</Property>
+                                </Properties>
+                            </StyleClass>
+                            <StyleClass Name="3rd Level">
+                                <Properties>
+                                    <Property Name="PaddingRight">10px</Property>
+                                </Properties>
+                            </StyleClass>
+                            <StyleClass Name="4th Level">
+                                <Properties>
+                                    <Property Name="PaddingRight">10px</Property>
+                                </Properties>
+                            </StyleClass>
+                        </Classes>
+                        <Properties />
+                    </Style>
+                    <Style Name="Search Input">
+                        <Properties>
+                            <Property Name="BackgroundColor">#ffffff</Property>
+                        </Properties>
+                    </Style>
+                    <Style Name="Menu">
+                        <Properties>
+                            <Property Name="Float">right</Property>
+                        </Properties>
+                    </Style>
+                    <Style Name="Search Submit Button">
+                        <Properties>
+                            <Property Name="BackgroundColor">#0072ce</Property>
+                            <Property Name="Tooltip">Search Help</Property>
+                        </Properties>
+                    </Style>
+                    <Style Name="Search Heading">
+                        <Properties>
+                            <Property Name="Format">{total_results} results for {query} </Property>
+                        </Properties>
+                    </Style>
+                    <Style Name="Logo">
+                        <Properties>
+                            <Property Name="AltText">Help</Property>
+                        </Properties>
+                    </Style>
+                </Styles>
+            </Stylesheet>
+        </Stylesheet>
+    </Strings>
+</CatapultSkin>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated AdminGuide.fltar" Date="2018-01-09T09:16:12.1600009-08:00">
+    <Messages>Compiling target AdminGuide...
+Checking Word version...
+Removing previously generated content...
+Gathering Glossary information...
+Gathering Auto-index information...
+Loading Master TOC...
+Processing Master TOC...
+Processing Page Layouts...
+Collecting source files...
+Processing source files...
+Processing topic: Title Page_Admin.htm
+Processing topic: Contents.htm
+Processing topic: Introduction_admin.htm
+Processing topic: About_this_Document.htm
+Processing topic: Introduction_to_Administration.htm
+Processing topic: Roles_and_Responsibilities.htm
+Processing topic: What_is.htm
+Processing topic: Common_Abbreviations.htm
+Processing topic: Getting_Started_admin.htm
+Processing topic: What_You_Need.htm
+Processing topic: About_the_Administrative_Console.htm
+Processing topic: Adding_a_Super_Administrator.htm
+Processing topic: Logging_in_to_the_Console.htm
+Processing topic: Using_Filtering.htm
+Processing topic: Creating_Custom_Measures.htm
+Processing topic: Changing_Your_Administrative_Password.htm
+Processing topic: Password_Requirements.htm
+Processing topic: Super_Administrators.htm
+Processing topic: Administration_Overview_Super_Administrators.htm
+Processing topic: Configuring_the_Default_Administrator_Password.htm
+Processing topic: Adding_an_Administrator.htm
+Processing topic: Adding_Administrators_using_Import.htm
+Processing topic: Editing_an_Administrator_Profile.htm
+Processing topic: Deleting_an_Administrator_Profile.htm
+Processing topic: Exporting_Administrator_Information.htm
+Processing topic: About_Data_Sources.htm
+Processing topic: Adding_a_Data_Source.htm
+Processing topic: Assigning_Data_Sources.htm
+Processing topic: Editing_a_Data_Source .htm
+Processing topic: Deleting_a_Data_Source.htm
+Processing topic: About_Password_Policy_and_Best_Practices.htm
+Processing topic: Configuring_the_Password_Policy.htm
+Processing topic: Client_Administrators_and_internalonly_Administrators.htm
+Processing topic: Administration_Overview_Client_Administrators.htm
+Processing topic: About_Permissions_and_Groups.htm
+Cross-referenced file not included in TOC: Content\About_Code_Lists.htm
+Processing topic: Adding_a_Permission_Group.htm
+Processing topic: Viewing_a_Permission_Group.htm
+Processing topic: Editing_a_Permission_Group.htm
+Processing topic: Deleting_a_Permission_Group.htm
+Processing topic: Configuring_the_Default_User_Password.htm
+Processing topic: Adding_a_User.htm
+Processing topic: Adding_Users_using_Import.htm
+Processing topic: Editing_a_User_Profile.htm
+Processing topic: Deleting_a_User_Profile.htm
+Processing topic: Exporting_User_Information.htm
+Processing topic: About_Provider_Types.htm
+Processing topic: Building_a_Provider_Type_List.htm
+Processing topic: Importing_a_Provider_Type_List.htm
+Processing topic: Using_the_Standard_Provider_List.htm
+Processing topic: Deleting_a_Provider_Type.htm
+Topic was included in the Flare TOC more than once. The content will still be exported to the output more than once.
+Processing topic: Assigning_Data_Sources.htm
+Processing topic: Editing_Assigned_Data_Sources.htm
+Processing topic: Deleting_Assigned_Data_Sources.htm
+Processing topic: Copyright.htm
+Processing topic: Index_Admin.htm
+Generating final output...
+Patching links and page references...
+Saving word output...
+Embedding images into document. This may take several minutes.
+Generated ../../../../../../../Documents/Projects/Logic/Output/Flare/Administration/Output/AdminGuide/admin.doc
+Saving result set...
+Output generated in 45 second(s).
+
+Done
+Saving log to "C:\Flare Projects\v.2017\Logic\Project\Reports\AdminGuide.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="../../Content/About_Permissions_and_Groups.htm" Message="Cross-referenced file not included in TOC: Content\About_Code_Lists.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="AdminGuide" ErrorID="40030" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

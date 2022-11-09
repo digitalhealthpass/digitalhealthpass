@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="106" MadCap:lastWidth="819" MadCap:ignoredWords="Misc;Barkoff;Lebib;ESI;FFS;PPO">
+    <head>
+        <link href="../Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- <MadCap:breadcrumbsProxy class="breadcrumb" /> -->
+        <MadCap:bodyProxy />
+        <p>&#160;</p>
+        <hr align="left" width="40%" size="4" style="height: 0px;" color="#bababa">
+        </hr>
+        <p style="font-weight: bold;color: #666666;text-align: left;"><span style="font-family: Arial; font-weight: normal; font-size: 8pt;">©  <MadCap:variable name="Variables.Company name" />, Inc.</span>
+        </p>
+    </body>
+</html>

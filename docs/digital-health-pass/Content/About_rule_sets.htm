@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.Admin,Primary.User">
+    <head>
+        <link href="Resources/TableStyles/gray_border.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>About rule sets</title>
+        <link href="Resources/Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="rule sets" />About rule sets           
+            </h2>
+        <p>As an <MadCap:variable name="Variables.Company name" /> <MadCap:variable name="Variables.ProductName" /> customer, you have specific policies for verifying digital healthcare credentials. These policies include criteria for, for example, whether a credential is supported or expired. In addition, customers need the flexibility to control policies when applied to multiple digital credential standards, for example, the SMART Health Cards (SHC)&#160;standard and the Digital COVID Certificate (DCC)&#160;European Union standard. </p>
+        <p><MadCap:variable name="Variables.ProductName" /> administration uses <b>rule sets</b> to control how credentials are processed and assessed. A rule set definition is a collection of data rule definitions. Rule sets processing executes and evaluates multiple rules together against individual credentials. </p>
+        <p><b>Processing and verification</b>
+        </p>
+        <p>Rule set-based credential processing  uses this basic logic: <b>Rules</b>&#160;&#160;→&#160;&#160;<b>Trust</b>&#160;&#160;→&#160;&#160;<b>Display</b></p>
+        <p><b><MadCap:keyword term="rules, verification" />Rules</b> </p>
+        <p>A given credential type uses at least one rule. Rules use <MadCap:keyword term="if/then statements" />if/then statements, where the <i>if</i> is the condition and the <i>then</i> is the action of the rule. During processing, each rule in a set is applied to each individual credential.</p>
+        <p><b><MadCap:keyword term="trust lists" />Trust</b>&#160;</p>
+        <p>After completing if/then and test condition assessments, a determination is made on whether to trust the credential, based on the relevant issuers.</p>
+        <p><b><MadCap:keyword term="display fields" />Display</b>&#160;</p>
+        <p>Based on successful completion of the previous steps, physically display the appropriate holder information on the credential when issued. This criterion displays selected information based on the credential type. </p>
+        <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style: url('Resources/TableStyles/gray_border.css');" summary="Example of credential processing for verification" class="TableStyle-gray_border" cellspacing="0">
+            <caption MadCap:autonum="Table 1 ">Example of credential processing for verification</caption>
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-gray_border-Column-Column1" style="width: 25%;" />
+            <thead>
+                <tr class="TableStyle-gray_border-Head-Header1">
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Credential type</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Rule set, →rules</th>
+                    <th class="TableStyle-gray_border-HeadE-Column1-Header1">Trust</th>
+                    <th class="TableStyle-gray_border-HeadD-Column1-Header1">Display</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-gray_border-Body-Body1">
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">Digital COVID Certificate (DCC)&#160;European Union</td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1"><b>Verify a Vaccination</b>
+                        <br />→ Check it is 14 to 365 days since getting the vaccination
+<br />→ Check for approved vaccine
+<br />→ Check for single vaccination record
+<br />→ Check for completed vaccination cycle</td>
+                    <td class="TableStyle-gray_border-BodyB-Column1-Body1">
+                        <MadCap:keyword term="issuers:trusted" />Trust all issuers registered in the EU Gateway</td>
+                    <td class="TableStyle-gray_border-BodyA-Column1-Body1">Display only minimum identity (name, date of birth)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p><b>Verification configurations, rule sets</b>
+        </p>
+        <p><MadCap:variable name="Variables.ProductName" /> includes several standard rule sets as <b><MadCap:keyword term="verifier configurations:rule sets" />verifier configurations</b>. You'll find these configurations in the administration console's <MadCap:keyword term="configuration catalog" />Configuration Catalog. For steps to access the Configuration Catalog, see <a href="Viewing_verifier_configurations.htm"> Viewing verifier configurations</a>. </p>
+        <p><b>Figure:&#160;Example of a rule set in the Configuration Catalog</b>
+        </p>
+        <p>
+            <img src="Images/rule_set_example.jpg" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

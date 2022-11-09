@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="96" MadCap:lastWidth="762" MadCap:ignoredWords="Misc;Barkoff;Lebib;ESI;FFS;PPO">
+    <head>
+        <link href="../TableStyles/standard_help_footer.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Stylesheets/standard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body style="color: #ffffff;">
+        <!-- <MadCap:breadcrumbsProxy class="breadcrumb" /> --><a name="pagetop"></a>
+        <MadCap:bodyProxy />
+        <p>&#160;</p>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/standard_help_footer.css');" class="TableStyle-standard_help_footer" cellspacing="0">
+            <col class="Column-Column1" style="color: #ffffff;" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyA-Column1-Body1"><span style="color: #ffffff;"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
