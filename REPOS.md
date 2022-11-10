@@ -1,3 +1,11 @@
+This document provides a brief description of each repo and what it contains, broken down by:
+* DHP Platform
+* DHP Verifier & Wallet Applications
+* Data Exchange Service (DES)
+* Test & Configuration
+* Samples
+* Salesforce
+
 # DHP Platform
 These repos are related to core services of the DHP cloud platform, such as authentication, metering, logging, issuing, and verification.
 
