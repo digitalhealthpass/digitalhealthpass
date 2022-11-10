@@ -1,3 +1,12 @@
+This document provides a list of interesting reference material and/or dependencies, broken down by:
+
+* Information about IBM Digital Health Pass
+* Open standards adopted by Digital Health Pass (DHP)
+* Open source packages used by DHP Platform
+* Open source packages used by DHP Mobile Apps (Android)
+* Open source packages used by DHP Mobile Apps (iOS)
+* Open source packages used by DHP Web Apps 
+
 ### Information about IBM Digital Health Pass 
 From which this [Digital Heath Pass (DHP) open source project](./README.md) was derived.
 * [IBM Digital Health Pass](https://www.ibm.com/products/digital-health-pass)
