@@ -20,6 +20,10 @@ The technology comprised 3 layers: Application, API, and Data
 
 Digital Health Pass will open source the technology within the first two layers (Applications and APIs) required for credential exchange. It will not open source the Hyperledger Fabric blockchain ledger, instead replacing with a simple database for holding keys, schemas, and other required elements. Blockchain could be reintroduced at a later stage by the open-source community, if so desired. This first release into open-source, will maintain some of the existing IBM Cloud dependencies, such as authentication and cloud databases, however these can be replaced by contributors to the open source project.
 
+For more information about what's in each of the github repos and the external open source dependencies, please check out:
+* [REPOS.md](./REPOS.md)
+* [LINKS.md](./LINKS.md)
+
 ## Applications
 
 #### Digital Wallet
