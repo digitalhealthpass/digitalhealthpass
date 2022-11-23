@@ -9,13 +9,13 @@ This document provides a brief description of each repo and what it contains, br
 # DHP Platform
 These repos are related to core services of the DHP cloud platform, such as authentication, metering, logging, issuing, and verification.
 
-## [dhp-api](https://github.com/digitalhealthpass/https://github.com/digitalhealthpass/dhp-api)
+## [dhp-api](https://github.com/digitalhealthpass/dhp-api)
 This API handles all the capabilities required for issuance of credentials, from managing schemas to issuing and revoking of credentials.
 
-## [dhp-generic-issuer-api](https://github.com/digitalhealthpass/https://github.com/digitalhealthpass/dhp-generic-issuer-api)
+## [dhp-generic-issuer-api]https://github.com/digitalhealthpass/dhp-generic-issuer-api)
 This API handles all capabilities required for managing the Trust Registry, which acts as a list of trusted issuers and their associated keys, DID documents, and other relevant information. It provides integrations with two other trust registries; Vaccine Credential Initiative Trust Registery (for Smart Health Cards, SHCs) and the EU Gateway (for Digital Covid Certificates, DCCs). 
 
-## [dhp-verify-admin-api](https://github.com/digitalhealthpass/https://github.com/digitalhealthpass/dhp-verify-admin-api)
+## [dhp-verify-admin-api](https://github.com/digitalhealthpass/dhp-verify-admin-api)
 This API is used by the verifier admin UI for verifier onboarding and configuration.
 
 ## [dhp-verify-admin-ui](https://github.com/digitalhealthpass/dhp-verify-admin-ui)
@@ -90,7 +90,7 @@ The challenge API provides a mechanism whereby the verifier can generate a chall
 ## [sample-dhp-wellness-score-api](https://github.com/digitalhealthpass/sample-dhp-wellness-score-api)
 
 The wellness score API provide a mechanism whereby an organization can incorporate personal data into a business process without exposing the underlying data or the logic by which it was generated. For example; an organization implementing a return to work policy might want to generate a wellness score which is then used by the business process so that the underlying health data used to generate the score does not need to be exposed. A sample wellness score model is contained in this repo, with the following states:
-![](https://github.com/digitalhealthpass/https://github.com/WH-HealthPass/opensource-dev-info/images/wellness-score.png)
+![](https://github.com/WH-HealthPass/opensource-dev-info/images/wellness-score.png)
 
 ![wellness-scores-image-local](https://github.com/digitalhealthpass/./images/wellness-scores.png )
 
