@@ -12,7 +12,7 @@ These repos are related to core services of the DHP cloud platform, such as auth
 ## [dhp-api](https://github.com/digitalhealthpass/dhp-api)
 This API handles all the capabilities required for issuance of credentials, from managing schemas to issuing and revoking of credentials.
 
-## [dhp-generic-issuer-api]https://github.com/digitalhealthpass/dhp-generic-issuer-api)
+## [dhp-generic-issuer-api](https://github.com/digitalhealthpass/dhp-generic-issuer-api)
 This API handles all capabilities required for managing the Trust Registry, which acts as a list of trusted issuers and their associated keys, DID documents, and other relevant information. It provides integrations with two other trust registries; Vaccine Credential Initiative Trust Registery (for Smart Health Cards, SHCs) and the EU Gateway (for Digital Covid Certificates, DCCs). 
 
 ## [dhp-verify-admin-api](https://github.com/digitalhealthpass/dhp-verify-admin-api)
@@ -92,11 +92,11 @@ The challenge API provides a mechanism whereby the verifier can generate a chall
 The wellness score API provide a mechanism whereby an organization can incorporate personal data into a business process without exposing the underlying data or the logic by which it was generated. For example; an organization implementing a return to work policy might want to generate a wellness score which is then used by the business process so that the underlying health data used to generate the score does not need to be exposed. A sample wellness score model is contained in this repo, with the following states:
 ![](https://github.com/WH-HealthPass/opensource-dev-info/images/wellness-score.png)
 
-![wellness-scores-image-local](https://github.com/digitalhealthpass/./images/wellness-scores.png )
+![wellness-scores-image-local](./images/wellness-scores.png )
 
 The wellness score is underpinned by a state transition model that allows changes in underlying risk factors to modify the health pass in order to drive a business process, such as providing building access, coordinating a Covid test, organizing sick leave, allowing to work from home, etc. The underlying data (and business logic) is not exposed to all parts of the business, instead it’s on a need to know basis. So the security guard only needs to know is whether the health pass is green or red, and does not need to ask for test results, temperature readings, exposure notifications, symptom checks, or any of the other data points that may have contributed to the status.
 
-![wellness-score-state-diagram-local](https://github.com/digitalhealthpass/./images/wellness-score-state-diagram.png)
+![wellness-score-state-diagram-local](./images/wellness-score-state-diagram.png)
 
 Similarly, with an airline looking to introduce a health pass before boarding a plan. The airline can leverage rules defined by an official government agency, which define what a low-risk Covid status might be. For example; it might factor in certain types of trusted tests, a duration for which the test result is valid, certain types of vaccinations, vaccination status, and duration. The airline just needs to ensure that only green health passes board the plan and the traveller only needs to expose their health pass status to the airline.
 
