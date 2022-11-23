@@ -1,4 +1,4 @@
-# Documentation
+# Open Digital Health Pass
 
 ## Introduction
 
