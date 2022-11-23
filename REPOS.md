@@ -106,7 +106,7 @@ This application was designed to fast-track adoption of verifiable credentials b
 ## [sample-dhp-enterprise-api](https://github.com/digitalhealthpass/sample-dhp-enterprise-api)
 This API handles analysis and reporting capabilities for employers looking to manage return to work policies through verification of vaccination or test credentials. 
 
-## [sample-dhp-holder-web-ui](https://github.com/digitalhealthpass/#) *TO BE RELEASE A LATER DATE*
+## [sample-dhp-holder-web-ui](https://github.com/digitalhealthpass/#) *TO BE RELEASED A LATER DATE*
 Credential holder web-application. 
 
 # Salesforce
