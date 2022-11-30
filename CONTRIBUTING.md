@@ -1,4 +1,4 @@
-# Contributing to digitalhealthpass
+# Contributing
 
 First of all, thank you for contributing to digitalhealthpass!
 
