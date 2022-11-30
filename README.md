@@ -1,5 +1,9 @@
 # Open Digital Health Pass
 
+<p align="center">
+  <a href="https://github.com/digitalhealthpass//digitalhealthpass/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/digitalhealthpass/digitalhealthpass"></a>
+</p>
+
 ## Introduction
 
 In 2022, IBM Watson Health became [Merative](https://www.merative.com/), a new healthcare company committed to building a more connected future in health. Building on Watson Health’s nearly 50 years of healthcare innovation, Merative is pioneering the use of cloud, real-world data, and industry-leading AI. Merative, a company committed to supporting the open-source community as demonstrated by its contributions to [Linux for Health](https://linuxforhealth.github.io/docs/index.html), has decided to release the Watson Health credentialing technology (previously IBM Digital Health Pass) into open-source, under the GitHub “[Digital Health Pass](https://github.com/digitalhealthpass)” project, making a sophisticated set of credentialing capabilities broadly available to healthcare solutions across the globe.
